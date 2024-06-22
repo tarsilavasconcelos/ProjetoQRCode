@@ -1,5 +1,7 @@
+const mainPrompt = require("./src/prompts/prompt-main");
+
 async function main() {
-  console.log("rjfrej");
+  mainPrompt.startProgram();
 }
 
 main();
